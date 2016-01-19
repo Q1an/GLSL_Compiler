@@ -1,0 +1,6 @@
+struct       line 1 cols 1-6 is T_Struct 
+{            line 1 cols 8-8 is '{' 
+int          line 2 cols 9-11 is T_Int 
+x            line 2 cols 13-13 is T_Identifier 
+;            line 2 cols 14-14 is ';' 
+}            line 3 cols 1-1 is '}' 

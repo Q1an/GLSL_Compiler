@@ -1,0 +1,4 @@
+In           line 1 cols 1-2 is T_Identifier 
+Out          line 2 cols 1-3 is T_Identifier 
+OUT          line 3 cols 1-3 is T_Identifier 
+IN           line 4 cols 1-2 is T_Identifier 

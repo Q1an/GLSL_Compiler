@@ -1,0 +1,3 @@
+oneTab       line 1 cols 9-14 is T_Identifier 
+twoTabs      line 2 cols 17-23 is T_Identifier 
+;            line 2 cols 24-24 is ';' 

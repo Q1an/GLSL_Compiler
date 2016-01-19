@@ -1,0 +1,12 @@
+while        line 1 cols 1-5 is T_While 
+(            line 1 cols 7-7 is '(' 
+ip           line 1 cols 9-10 is T_Identifier 
+<            line 1 cols 12-12 is '<' 
+z            line 1 cols 14-14 is T_Identifier 
+)            line 1 cols 16-16 is ')' 
+ip           line 2 cols 3-4 is T_Identifier 
+=            line 2 cols 6-6 is '=' 
+ip           line 2 cols 8-9 is T_Identifier 
++            line 2 cols 11-11 is '+' 
+1            line 2 cols 13-13 is T_IntConstant (value = 1)
+;            line 2 cols 14-14 is ';' 

@@ -1,0 +1,4 @@
+textShorterThan1023CharsButLongerThan31 line 1 cols 1-39 is T_Identifier (truncated to textShorterThan1023CharsButLong)
+is           line 2 cols 1-2 is T_Identifier 
+fine         line 3 cols 1-4 is T_Identifier 
+t1234567890123456789012345abcdef line 4 cols 1-32 is T_Identifier (truncated to t1234567890123456789012345abcde)

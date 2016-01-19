@@ -1,0 +1,3 @@
+--           line 1 cols 1-2 is T_Dec 
+intvar       line 1 cols 3-8 is T_Identifier 
+;            line 1 cols 9-9 is ';' 

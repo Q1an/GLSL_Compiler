@@ -1,0 +1,4 @@
+_id1         line 1 cols 1-4 is T_Identifier 
+__id2        line 2 cols 1-5 is T_Identifier 
+__id345_     line 3 cols 1-8 is T_Identifier 
+__id34dskf_34 line 4 cols 1-13 is T_Identifier 

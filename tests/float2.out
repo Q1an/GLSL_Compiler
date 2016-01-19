@@ -1,0 +1,4 @@
+float        line 1 cols 1-5 is T_Float 
+z            line 1 cols 7-7 is T_Identifier 
+=            line 1 cols 9-9 is '=' 
+1.5f         line 1 cols 11-14 is T_FloatConstant (value = 1.5)

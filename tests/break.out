@@ -1,0 +1,2 @@
+break        line 1 cols 1-5 is T_Break 
+;            line 1 cols 6-6 is ';' 
