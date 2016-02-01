@@ -37,7 +37,7 @@ int yycolumn = 1;
  * ---------------------
  * This flex built-in macro can be defined to provide an action which is
  * always executed prior to any matched rule's action. Basically, it is
- * a way of having a piece of code common to all actions factored out to
+ * a way of having a piece ofs code common to all actions factored out to
  * this routine.  We already defined it for you and left the empty
  * function DoBeforeEachAction ready for your use as needed. It will
  * be called once for each pattern scanned from the file, before
@@ -64,7 +64,7 @@ static void DoBeforeEachAction();
 "false" {yylval.boolConstant = false; return T_BoolConstant; }
 "true" {yylval.boolConstant = true; return T_BoolConstant; }
 [0-9]+ {yylval.integerConstant = strtol(yytext, NULL, 10); return T_IntConstant; }
-[0-9]+[.]?[0-9]*[f]? {yylval.floatConstant = strtod(yytext, NULL); return T_FloatConstant; }
+[0-9]*[.]?[0-9]*[f]? {yylval.floatConstant = strtod(yytext, NULL); return T_FloatConstant; }
 [ \f] ;
 [\t\v] { yycolumn += 7;}
 [\r\n]|"\r\n"|"\n\r" { yycolumn = 1;}
@@ -116,7 +116,7 @@ static void DoBeforeEachAction();
 "uvec3" { return T_Uvec3; }
 "uvec4" { return T_Uvec4; }
 "struct" { return T_Struct; }
-\/\/.*\n { yycolumn = 1; yylineno++;}
+\/\/.*\n { yycolumn = 1; }
 "/*"            { BEGIN(C_COMMENT); }
 <C_COMMENT>"*/" { BEGIN(INITIAL); }
 <C_COMMENT>\n { yycolumn = 1; yylineno++; }
